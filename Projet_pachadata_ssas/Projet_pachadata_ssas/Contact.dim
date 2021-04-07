@@ -1,0 +1,305 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="16989f10-5f65-402e-af98-135e1de48e8d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Contact</ID>
+  <Name>Contact</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1293" scrolltop="-2193" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8382" y="12002" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Contact" left="-107" top="-191" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6371" height="8916" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e3180000d4220000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimContact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1293</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2193</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-107</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-191</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="162">
+            <Shape Id="Dim Contact Sk" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dim Contact Sk" />
+                <Attribute Id="Sexe" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Ville" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ville" />
+              </Attributes>
+              <Position x="227" y="20" />
+            </Shape>
+            <Shape Id="Nom Departement" Expanded="false">
+              <Attributes>
+                <Attribute Id="Nom Departement" />
+              </Attributes>
+              <Position x="435" y="20" />
+            </Shape>
+            <Shape Id="Nom Pays Francais" Expanded="false">
+              <Attributes>
+                <Attribute Id="Nom Pays Francais" />
+              </Attributes>
+              <Position x="642" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="11560005-445d-4a0f-b277-214dd0cb499b">
+    <DataSourceViewID>Pachadata Formation DM</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="9a1f8ecd-e9a9-46f0-886b-cfcecda4dc0c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="923b83d4-b972-4b1c-8568-003e718a6938">
+      <ID>Dim Contact Sk</ID>
+      <Name>Dim Contact Sk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c30b2c6c-a9ce-475f-b92c-b03703461a30">
+          <DataType>BigInt</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5c9eb1b-eb91-4705-8f21-9b882cfaf594">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>DimContactSk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7e6e3f9c-9916-415d-b028-13abfae8cba8">
+          <AttributeID>Sexe</AttributeID>
+          <Name>Sexe</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9c09b62-7717-473d-8695-18933eb98e33">
+          <AttributeID>Ville</AttributeID>
+          <Name>Ville</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="02a210fe-49b7-441c-88d8-24614f83d933">
+          <AttributeID>Nom Complet</AttributeID>
+          <Name>Nom Complet</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fc22f662-fabb-45c6-aaae-49b6b2bd86d0">
+      <ID>Sexe</ID>
+      <Name>Sexe</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c53f4eb3-9a80-433b-b306-afa271a5d87c">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e3e295b-c852-4b03-9ef6-317a0355416e">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>Sexe</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ffb55549-3e19-4ad5-87a1-7041b4fcab4f">
+      <ID>Nom Pays Francais</ID>
+      <Name>Nom Pays Francais</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f81a381b-2309-43ec-8478-f8617b4c1b71">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6424c7f8-0449-474e-b9cc-84e7a1967ff5">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>NomPaysFrancais</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6cdf75a6-94a7-42c8-b2ce-ad43d844130a">
+      <ID>Ville</ID>
+      <Name>Ville</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40326f53-ae99-4c45-88a5-001caa0d6375">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fd3dbffd-9c59-4e3a-ac2d-d5e7cb4078b5">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>Ville</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="039ce8ba-9797-4695-be0f-7a13b396bfc7">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="060b3c11-bcf6-4bcf-9406-d98c3ff5c498">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>CodeDepartement</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="9a6204c1-1a08-4040-ada3-f559d8bf5a88">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c465acb3-c83e-4c4c-af3a-994352977e08">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>NomPaysFrancais</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bf7fa912-14d4-4be7-be3b-53f310f95e0e">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="70485a3e-55a0-47af-ad6b-a2a9f866c823">
+          <TableID>dbo_DimContact</TableID>
+          <ColumnID>Ville</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3e12b690-18c2-48ed-a2ff-f04d5674f418">
+          <AttributeID>Nom Departement</AttributeID>
+          <Name>Nom Departement</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4453dce9-b264-4ccb-97a7-4a0bde1e1191">
+      <ID>Nom Departement</ID>
+      <Name>Nom Departement</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12da1db0-8621-4516-af8f-34902606d5ea">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7a8cb02-a10b-482c-9c9e-c29ed9ae3c00">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>NomDepartement</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e3b91b6a-56f6-4d8a-9397-445408886dda">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5bf1313-3dbe-4027-8e7e-a3a88977403b">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>NomPaysFrancais</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="5e3eb7f3-37bb-4990-a9c4-9566fb8e7f42">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4d871041-2f03-423d-af91-678559555838">
+          <TableID>dbo_DimContact</TableID>
+          <ColumnID>NomDepartement</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fd944570-2ab8-4809-8cd1-c890862f8a12">
+          <AttributeID>Nom Pays Francais</AttributeID>
+          <Name>Nom Pays Francais</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ecf66f77-bc7a-4721-b290-c33737e107f3">
+      <ID>Nom Complet</ID>
+      <Name>Nom Complet</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="33ef93a7-aec7-4424-a9d7-e4c2697fd613">
+          <DataType>WChar</DataType>
+          <DataSize>102</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df66263d-6482-4620-919b-b2487c9d5c7b">
+            <TableID>dbo_DimContact</TableID>
+            <ColumnID>Nom_x0020_Complet</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5be04beb-9bbd-4016-aaed-fddd6cb8c258">
+      <ID>Hiérarchie</ID>
+      <Name>Adresse</Name>
+      <Levels>
+        <Level dwd:design-time-name="13ab8651-655e-49f4-89dc-fedd3814f419">
+          <ID>Nom Pays Francais</ID>
+          <Name>Nom Pays Francais</Name>
+          <SourceAttributeID>Nom Pays Francais</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f5f43b87-0385-49c7-8497-43f48e356478">
+          <ID>Nom Departement</ID>
+          <Name>Nom Departement</Name>
+          <SourceAttributeID>Nom Departement</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="333f078b-d255-412f-a171-0fe53bb25561">
+          <ID>Ville</ID>
+          <Name>Ville</Name>
+          <SourceAttributeID>Ville</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
